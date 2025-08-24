@@ -54,7 +54,6 @@ section {
     padding: 16px;
 }
 
-
 table {
     border-collapse: collapse;
     font-size: 12px;
@@ -85,10 +84,6 @@ tr:nth-child(even) {
     display: block;
 }
 
-hr {
-    border: solid 1px #c7c7c7;
-    width: 100%;
-}
 
 .td-materia {
     width: 120px;
