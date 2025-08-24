@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.header span {
+    padding: 3px 7px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #f5f5f5;
+}
+
+.header h1 {
+    padding: 16px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.info p {
+    font-weight: bold;
+}
+
+.table-horario {
+    padding: 16px;
+}
+
+
+table {
+    border-collapse: collapse;
+    font-size: 12px;
+    min-width: 600px;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    width: 150px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.td-materia span {
+    font-weight: bold;
+    display: block;
+}
+
+hr {
+    border: solid 1px #c7c7c7;
+    width: 100%;
+}
+
+.td-materia {
+    width: 120px;
+    background-color: rgb(134, 186, 212);
+}
